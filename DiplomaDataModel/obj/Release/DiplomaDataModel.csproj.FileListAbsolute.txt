@@ -1,0 +1,5 @@
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\bin\Release\DiplomaDataModel.dll
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\bin\Release\DiplomaDataModel.pdb
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\obj\Release\DiplomaDataModel.csprojResolveAssemblyReference.cache
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\obj\Release\DiplomaDataModel.dll
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\obj\Release\DiplomaDataModel.pdb

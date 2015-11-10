@@ -1,0 +1,10 @@
+﻿Enable-Migrations -ContextTypeName DataContext -MigrationsDirectory Migration\Records
+Enable-Migrations -ContextTypeName ApplicationDbContext -MigrationsDirectory Migration\Identity
+
+
+add-migration -ConfigurationTypeName OptionWebsite.Migration.Records.Configuration "init"
+add-migration -ConfigurationTypeName OptionWebsite.Migration.Identity.Configuration "init"
+
+update-database -ConfigurationTypeName OptionWebsite.Migration.Records.Configuration
+update-database -ConfigurationTypeName OptionWebsite.Migration.Identity.Configuration
+

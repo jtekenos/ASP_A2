@@ -1,0 +1,4 @@
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\bin\Debug\DiplomaDataModel.dll
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\bin\Debug\DiplomaDataModel.pdb
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\obj\Debug\DiplomaDataModel.dll
+C:\Users\Jessica\Documents\School\Fall 2015\COMP4976 - ASP .NET\assignment1FINALPLEASE\DiplomaDataModel\DiplomaDataModel\obj\Debug\DiplomaDataModel.pdb

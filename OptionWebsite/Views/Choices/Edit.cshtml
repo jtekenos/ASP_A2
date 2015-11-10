@@ -1,0 +1,95 @@
+﻿@model DiplomaDataModel.Models.Choice
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h2>@ViewBag.Title</h2>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.ChoiceId)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StudentId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StudentId)
+                @Html.ValidationMessageFor(model => model.StudentId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StudentFirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StudentFirstName)
+                @Html.ValidationMessageFor(model => model.StudentFirstName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StudentLastName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StudentLastName)
+                @Html.ValidationMessageFor(model => model.StudentLastName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FirstChoiceOptionId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.FirstChoiceOptionId, ViewBag.OptionList as SelectList, new { @class = "dropdown", Style = "width: 300px" })
+                @Html.ValidationMessageFor(model => model.FirstChoiceOptionId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SecondChoiceOptionId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.SecondChoiceOptionId, ViewBag.OptionList as SelectList, new { @class = "dropdown", Style = "width: 300px" })
+                @Html.ValidationMessageFor(model => model.SecondChoiceOptionId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ThirdChoiceOptionId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.ThirdChoiceOptionId, ViewBag.OptionList as SelectList, new { @class = "dropdown", Style = "width: 300px" })
+                @Html.ValidationMessageFor(model => model.ThirdChoiceOptionId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.FourthChoiceOptionId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(m => m.FourthChoiceOptionId, ViewBag.OptionList as SelectList, new { @class = "dropdown", Style = "width: 300px" })
+                @Html.ValidationMessageFor(model => model.FourthChoiceOptionId)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SelectionDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SelectionDate)
+                @Html.ValidationMessageFor(model => model.SelectionDate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
